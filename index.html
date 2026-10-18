@@ -4,63 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>HABITO - Gamified Health AI</title>
 </head>
 <body>
-    <div class="header">
-        <div class="left-links">
-            <a href="#">HABITO</a>
-        </div>
-        <div class="right-links">
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo"><a href="#">HABITO</a></div>
+        <nav class="nav-links">
             <a href="#">Features</a>
             <a href="#">Mechanics</a>
             <a href="#">Pricing</a>
-        </div>
-    </div>
+        </nav>
+    </header>
 
-    <div class="hero-section">
-        <div class="left-links">
-            <div class="Primary-Text">TURN YOUR HEALTH INTO A QUEST. LEVEL UP YOUR LIFE</div>
-            <div class="Secondary-Text">Meet your AI Game Master. Log habits, battle fatigue, and get personalized AI health recomendations formated as real-time game rewards.</div>
-            <div class="Ending-Text"> Start Your Quest For Free -> <button>Download</button></div>
-        </div>
-        <div class="right-links">
-            <img src="./Images/undraw_retro-video-game_l9zp.svg" alt="Placeholder Image">
-        </div>
-    </div>
-
-    <div class="information-heading">
-        <div class="title">HOW THE GAME WORKS</div>
-
-        <div class="container" >
-            <div class="info">
-                <img src="Images/undraw_healthy-lifestyle_8zpg.svg" alt="Quests">
-                <div class="text-1">Dyanmic Quest Generation</div>
-                <div class="text-2">Turn routine tasks into daily RPG adventures</div>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-left">
+                <h1 class="primary-text">TURN YOUR HEALTH INTO A QUEST. LEVEL UP YOUR LIFE</h1>
+                <p class="secondary-text">Meet your AI Game Master. Log habits, battle fatigue, and get personalized AI health recommendations formatted as real-time game rewards.</p>
+                <div class="hero-cta">
+                    <span>Start Your Quest For Free &rarr;</span>
+                    <button class="btn-primary">Download</button>
+                </div>
             </div>
-            <div class="info">
-                <img src="Images/undraw_teacher_n0ow.svg" alt="AI-Coach">
-                <div class="text-1">AI Companion Recomendations</div>
-                <div class="text-1">Receive tailored health tips during conversation</div>
+            <div class="hero-right">
+                <img src="./Images/undraw_retro-video-game_l9zp.svg" alt="Retro video game illustration">
             </div>
-            <div class="info">
-                <img src="Images/undraw_online-wishes_cb5x.svg" alt="Rewards">
-                <div class="text-1">Level Up & Gear Rewards</div>
-                <div class="text-1">Earn XP, gold and unlock avatar gear with every log</div>
-            </div>
-            <div class="info">
-                <img src="Images/undraw_progress-tracking_9m3o.svg" alt="Health">
-                <div class="text-1">Data-Driven AI Insights</div>
-                <div class="text-1">Tracks sleep & vitals like a character sheet</div>
-            </div>
-        </div>
-    </div>
+        </section>
 
-    <div class="Quote">
-        <div class="comment">"This chatbot completely changed how I look at my health. It doesn't feel like a boring traker, it feels like playing an RPG where the character is me"</div>
-        <div class="commenter"> - Level 24 John Dick</div>
-    </div>
+        <!-- Features / How It Works Section -->
+        <section class="information-section">
+            <h2 class="info-title">HOW THE GAME WORKS</h2>
 
-    <div class="Copyright">Copyright © The Odin Project 2021</div>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="Images/undraw_healthy-lifestyle_8zpg.svg" alt="Quests">
+                    <h3 class="card-title">Dynamic Quest Generation</h3>
+                    <p class="card-desc">Turn routine tasks into daily RPG adventures</p>
+                </div>
+                <div class="card">
+                    <img src="Images/undraw_teacher_n0ow.svg" alt="AI Coach">
+                    <h3 class="card-title">AI Companion Recommendations</h3>
+                    <p class="card-desc">Receive tailored health tips during conversation</p>
+                </div>
+                <div class="card">
+                    <img src="Images/undraw_online-wishes_cb5x.svg" alt="Rewards">
+                    <h3 class="card-title">Level Up & Gear Rewards</h3>
+                    <p class="card-desc">Earn XP, gold, and unlock avatar gear with every log</p>
+                </div>
+                <div class="card">
+                    <img src="Images/undraw_progress-tracking_9m3o.svg" alt="Health">
+                    <h3 class="card-title">Data-Driven AI Insights</h3>
+                    <p class="card-desc">Tracks sleep & vitals like a character sheet</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial / Quote Section -->
+        <section class="quote-section">
+            <blockquote class="quote-text">
+                "This chatbot completely changed how I look at my health. It doesn't feel like a boring tracker, it feels like playing an RPG where the character is me."
+            </blockquote>
+            <p class="quote-author">- Level 24 John Doe</p>
+        </section>
+
+        <!-- Bottom Call To Action Banner -->
+        <section class="cta-section">
+            <div class="cta-banner">
+                <div class="cta-text">
+                    <h3>Ready to level up your wellness?</h3>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button class="btn-secondary">Sign up</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
+
 </body>
 </html>
