@@ -6,4 +6,4 @@ This is just a visual concept of the **GameHealth AI**- An AI-powered health tra
 
 Built with - HTML and CSS
 
-Images used in the webpage are taken from [unDraw](undraw.co) created by (Katerina Limpitsouni)[https://x.com/ninalimpi]
+Images used in the webpage are taken from [unDraw](undraw.co) created by [Katerina Limpitsouni](https://x.com/ninalimpi)
